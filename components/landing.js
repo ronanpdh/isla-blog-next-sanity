@@ -12,7 +12,7 @@ export default function Landing({ allPosts, preview }) {
     <>
       <Layout preview={preview}>
         <Head>
-          <title>{`Next.js Blog Example with ${CMS_NAME}`}</title>
+          <title>ISLA</title>
         </Head>
         <Container>
           <Intro />
