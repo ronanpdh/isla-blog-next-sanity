@@ -11,7 +11,12 @@ module.exports = {
         "accent-2": "#EAEAEA",
         "accent-7": "#333",
         success: "#0070f3",
-        cyan: "#79FFE1",
+        orange: "#FF6542",
+        purple: "#5E2BFF",
+        charcoal: "#222222",
+        aqua: "#A1CDF4",
+        teagreen: "#C4D6B0",
+
       },
       spacing: {
         28: "7rem",
@@ -34,5 +39,7 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms')
+  ],
 };

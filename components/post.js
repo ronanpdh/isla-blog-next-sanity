@@ -25,7 +25,7 @@ export default function Post({ data = {}, preview = false }) {
   return (
     <Layout preview={preview}>
       <Container>
-        <Header />
+        <Header title={"Read"}/>
         {router.isFallback ? (
           <PostTitle>Loading…</PostTitle>
         ) : (
@@ -33,7 +33,7 @@ export default function Post({ data = {}, preview = false }) {
             <article>
               <Head>
                 <title>
-                  {`${post.title} | Next.js Blog Example with ${CMS_NAME}`}
+                  {`${post.title} | isla`}
                 </title>
                 {post.coverImage?.asset?._ref && (
                   <meta
@@ -51,7 +51,7 @@ export default function Post({ data = {}, preview = false }) {
                 title={post.title}
                 coverImage={post.coverImage}
                 date={post.date}
-                author={post.author}
+                // author={post.author}
               />
               <PostBody content={post.content} />
             </article>

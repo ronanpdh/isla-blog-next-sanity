@@ -25,7 +25,7 @@ export default function PostPlug({
         <Date dateString={date} />
       </div>
       <p className="mb-4 text-lg leading-relaxed">{excerpt}</p>
-      {author && <Avatar name={author.name} picture={author.picture} />}
+      {/* {author && <Avatar name={author.name} picture={author.picture} />} */}
     </div>
   );
 }
