@@ -47,7 +47,7 @@ export default function ContactPage({ data = {}, preview = false }) {
                 <PostBody content={page.content} />
                 <ContactForm />
                 <SectionSeparator />
-                <CoverImage source={page.coverImage} />
+                {/* <CoverImage source={page.coverImage} /> */}
             </Container>
         </Layout>
 

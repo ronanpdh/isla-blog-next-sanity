@@ -1,6 +1,10 @@
 import { useState } from 'react';
+const access_key = process.env.CONTACT_ACCESS_KEY; 
+
 export default function ContactForm() {
-    const [isSubmitted, setIsSubmitted] = useState(false);     
+
+    const [isSubmitted, setIsSubmitted] = useState(false);  
+
     async function handleSubmit(e) {
         e.preventDefault();
         const response = await fetch("https://api.web3forms.com/submit", {
@@ -10,7 +14,7 @@ export default function ContactForm() {
                 Accept: "application/json",
             },
             body: JSON.stringify({
-                access_key: process.env.CONTACT_ACCESS_KEY,
+                access_key: access_key,
                 name: e.target.name.value,
                 email: e.target.email.value,
                 message: e.target.message.value,
@@ -18,6 +22,7 @@ export default function ContactForm() {
         });
         const result = await response.json();
         if (result.success) {
+            setIsSubmitted(true);
             console.log(result);
         }
     }
@@ -43,7 +48,7 @@ export default function ContactForm() {
                         <label className="mt-2 mb-4" htmlFor="message">Message</label>
                         <textarea className="p-2 mb-4 border-2 rounded-lg border-zinc-300 focus:ring" name="message" required rows="3" placeholder="Enter Message"></textarea>
 
-                        <button className="p-2 mt-4 mb-8 rounded-xl border-2 text-white bg-violet-500 hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300" type="submit">Submit Form</button>
+                        <button className={`p-2 mt-4 mb-8 rounded-xl border-2 text-white  ${isSubmitted ? `bg-green-500`: `bg-violet-500 hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300`}`} type="submit">{isSubmitted ? 'Form Sent' : 'Submit Form'}</button>
                     </div>
                 </div>
             </form>
