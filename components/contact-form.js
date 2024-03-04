@@ -1,5 +1,5 @@
 import { useState } from 'react';
-const access_key = process.env.CONTACT_ACCESS_KEY; 
+; 
 
 export default function ContactForm() {
 
@@ -14,7 +14,7 @@ export default function ContactForm() {
                 Accept: "application/json",
             },
             body: JSON.stringify({
-                access_key: access_key,
+                access_key: process.env.CONTACT_ACCESS_KEY,
                 name: e.target.name.value,
                 email: e.target.email.value,
                 message: e.target.message.value,
