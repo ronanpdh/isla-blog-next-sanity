@@ -1,5 +1,5 @@
 import { useState } from 'react';
-; 
+
 
 export default function ContactForm() {
 
@@ -39,6 +39,7 @@ export default function ContactForm() {
                                 focus:invalid:border-pink-500 focus:invalid:ring-pink-500" 
                                 type="text" name="name" required placeholder="Your name" 
                         />
+                        
 
 
                         <label className="mt-2" htmlFor="email">Email</label>
