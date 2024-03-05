@@ -14,9 +14,9 @@ export default function Alert({ preview }) {
         <div className="py-2 text-center text-sm">
               <a
                 href="https://www.instagram.com/isla.supply/?igsh=d2tkM2x2OWEwbmdl"
-                className="underline hover:text-orange duration-200 transition-colors"
+                className=" text-pretty hover:text-orange duration-200 transition-colors"
               >
-                ISLA Supply
+                I Started Life As...
               </a>
 
         </div>

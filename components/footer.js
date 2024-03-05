@@ -14,7 +14,7 @@ export default function Footer() {
               href="https://isla-newsletter-1d03f3.beehiiv.com/subscribe"
               className="mx-3 bg-purple rounded-sm hover:bg-white hover:text-black border border-purple text-white font-bold py-3 px-12 lg:px-8 duration-200 transition-colors mb-6 lg:mb-0"
             >
-              Subscribe to our Newletter
+              Subscribe to our Newsletter
             </a>
           </div>
         </div>
