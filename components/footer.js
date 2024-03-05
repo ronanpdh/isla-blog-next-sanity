@@ -11,10 +11,10 @@ export default function Footer() {
           </h3>
           <div className="flex flex-col lg:flex-row justify-center items-center lg:pl-4 lg:w-1/2">
             <a
-              href="https://www.instagram.com/isla.supply/?igsh=d2tkM2x2OWEwbmdl"
-              className="mx-3 bg-black hover:bg-white hover:text-black border border-black text-white font-bold py-3 px-12 lg:px-8 duration-200 transition-colors mb-6 lg:mb-0"
+              href="https://isla-newsletter-1d03f3.beehiiv.com/subscribe"
+              className="mx-3 bg-purple rounded-sm hover:bg-white hover:text-black border border-purple text-white font-bold py-3 px-12 lg:px-8 duration-200 transition-colors mb-6 lg:mb-0"
             >
-              Follow Us
+              Subscribe to our Newletter
             </a>
           </div>
         </div>
