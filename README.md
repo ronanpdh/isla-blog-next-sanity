@@ -15,3 +15,13 @@
 "I started life as", A look into the creative process of creators, makers, developers and businesses.
 
 We delve into the origins and evolutions of creators, makers, designers and entrepreneurs exploring their journeys from inception to their current state. Whether their paths have remained constant or diverged into new realms, Isla captures these narratives. We also spotlight products, emphasizing their transformation, whether through upcycling, recycling, or innovative pivots. Our broad scope is intentional, fostering exploration and celebrating the continuous evolution and change in design and creativity.
+
+
+## Run CMD's
+
+Run local Development
+npm run dev
+Sanity - npm run studio:dev
+
+Sanity Deployment
+npm run studio:deploy
