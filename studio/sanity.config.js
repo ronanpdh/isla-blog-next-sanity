@@ -7,6 +7,7 @@ import { resolveProductionUrl } from "./resolveProductionUrl";
 import { author } from "./schemas/author";
 import { post } from "./schemas/post";
 import { page } from './schemas/page'; 
+import { codeInput } from "@sanity/code-input";
 
 const title =
   import.meta.env.NEXT_PUBLIC_SANITY_PROJECT_TITLE ||
@@ -33,5 +34,6 @@ export default defineConfig({
     // Vision lets you query your content with GROQ in the studio
     // https://www.sanity.io/docs/the-vision-plugin
     visionTool(),
+    codeInput(),
   ],
 });
