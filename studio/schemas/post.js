@@ -29,6 +29,9 @@ export const post = {
         },
         {
           type: "image"
+        },
+        {
+          type: "code"
         }
       ],
     },
