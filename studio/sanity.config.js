@@ -11,7 +11,7 @@ import { codeInput } from "@sanity/code-input";
 
 const title =
   import.meta.env.NEXT_PUBLIC_SANITY_PROJECT_TITLE ||
-  "Next.js Blog with Sanity.io";
+  "isla supply";
 const projectId = import.meta.env.NEXT_PUBLIC_SANITY_PROJECT_ID;
 const dataset = import.meta.env.NEXT_PUBLIC_SANITY_DATASET;
 
