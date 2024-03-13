@@ -38,9 +38,9 @@ export default function Meta() {
         name="description"
         content={description}
       />
-      <meta property="og:image" content={isla} key="ogImage" />
-      <meta property="twitter:image" content={isla} />
-      <meta property="twitter:card" content={isla} />
+      <meta property="og:image" content="https://www.isla.supply/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F8f78yh18%2Fproduction%2Fb1f623dc715f9cdc06e56737c18ee49600eeea08-2946x2206.webp%3Frect%3D0%2C367%2C2946%2C1473%26w%3D2000%26h%3D1000%26fit%3Dmax%26auto%3Dformat&w=3840&q=75" key="ogImage" />
+      <meta property="twitter:image" content="https://www.isla.supply/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F8f78yh18%2Fproduction%2Fb1f623dc715f9cdc06e56737c18ee49600eeea08-2946x2206.webp%3Frect%3D0%2C367%2C2946%2C1473%26w%3D2000%26h%3D1000%26fit%3Dmax%26auto%3Dformat&w=3840&q=75" />
+      <meta property="twitter:card" content="https://www.isla.supply/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F8f78yh18%2Fproduction%2Fb1f623dc715f9cdc06e56737c18ee49600eeea08-2946x2206.webp%3Frect%3D0%2C367%2C2946%2C1473%26w%3D2000%26h%3D1000%26fit%3Dmax%26auto%3Dformat&w=3840&q=75" />
       <meta property="twitter:title" content="Isla"/>
       <meta property="twitter:description" content={description} />
       <meta property="og:title" content="ISLA" />
