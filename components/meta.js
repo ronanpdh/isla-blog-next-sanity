@@ -46,10 +46,10 @@ export default function Meta() {
       <meta property="og:title" content="ISLA" />
       <meta property="og:description" content={description} />
       <meta property="og:url" content="https://www.isla.supply" />
-      <meta property="og:title" content="Isla">
+      <meta property="og:title" content="Isla" />
       <meta property="og:description" content={description} />
-      <meta property="og:url" content="https://www.isla.supply"></meta>
-      </meta>
+      <meta property="og:url" content="https://www.isla.supply" />
+      
     </Head>
   );
 }
