@@ -1,7 +1,9 @@
 import Head from "next/head";
 import { CMS_NAME, HOME_OG_IMAGE_URL } from "../lib/constants";
+import { isla } from '../public/assets/isla-image.png';
 
 export default function Meta() {
+  const description = `ISLA: I started Life as. We delve into the origins and evolutions of creators, makers, designers and entrepreneurs exploring their journeys from inception to their current state`; 
   return (
     <Head>
       <link
@@ -34,9 +36,20 @@ export default function Meta() {
       <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       <meta
         name="description"
-        content={`A look at the execution and evolution of creative processes`}
+        content={description}
       />
-      <meta property="og:image" content={HOME_OG_IMAGE_URL} key="ogImage" />
+      <meta property="og:image" content={isla} key="ogImage" />
+      <meta property="twitter:image" content={isla} />
+      <meta property="twitter:card" content={isla} />
+      <meta property="twitter:title" content="Isla"/>
+      <meta property="twitter:description" content={description} />
+      <meta property="og:title" content="ISLA" />
+      <meta property="og:description" content={description} />
+      <meta property="og:url" content="https://www.isla.supply" />
+      <meta property="og:title" content="Isla">
+      <meta property="og:description" content={description} />
+      <meta property="og:url" content="https://www.isla.supply"></meta>
+      </meta>
     </Head>
   );
 }
