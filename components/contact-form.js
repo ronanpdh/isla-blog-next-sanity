@@ -40,8 +40,6 @@ export default function ContactForm() {
                                 type="text" name="name" required placeholder="Your name" 
                         />
                         
-
-
                         <label className="mt-2" htmlFor="email">Email</label>
                         <input className="p-2 mb-4 border-2 rounded-lg border-zinc-300 focus:ring" type="email" name="email" required placeholder="email@example.com" />
 
